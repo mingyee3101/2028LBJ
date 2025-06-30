@@ -76,7 +76,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Ohio",
             "priority": 2,
-            "description": "<p>J. D. Vance has served as Trump Vice President for the past four years.</p>",
+            "description": "<p>J. D. Vance has served as Vice President for the past four years.</p>",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
