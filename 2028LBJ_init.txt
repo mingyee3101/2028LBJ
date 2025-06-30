@@ -1,0 +1,271 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 21,
+        "fields": {
+            "year": 2020,
+            "summary": "<p>America in 2028 stands unsettled, Trump's return in 2024 led the Democratic Party to a collapse of leadership, and the Democratic Party showed a feeble course in the ruthless response to the 2025 LA Riots, the tariff war, and the war with Iran. When even North Korea collapsed due to China's weakening, Trump became a leader who unified the Korean Peninsula without doing anything. In a desperate situation, a 'special gift' appeared before the eyes of the American people on Christmas 2025.</p>",
+            "image_url": "https://i.imgur.com/Gl1gAtX.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2028LBJ"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Lyndon B.",
+            "last_name": "Johnson",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Lyndon B. Johnson was died in 1973, But he reborn after 52 years, America looked very regressive. His successor, Nixon, resigned in disgrace due to Watergate, and Carter, unfortunately, showed insufficient ability in the end. Reagan and Bush believed in neoliberalism and destroyed his Great Society, and Clinton seemed to compromise rather than overcome neoliberalism. Dubya showed more incompetence than himself, who had to lead the Vietnam War with neoconservative policies. Obama promised change, but instead of solving these problems, he worsened the Middle East and East Asia problems and cooperated with the vested interests within the Democratic Party. Biden made some efforts to solve them, but he was too old. They called he was 'old-fashioned', but they had been doing stupid things while he was away, and LBJ finally known.</p> <p>LBJ was furious, but finally calm. and he decided run for re-election in 2028.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/37_Lyndon_Johnson_3x4.jpg/800px-37_Lyndon_Johnson_3x4.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2028 election.</h3><p>Clean the this Mess, All The Way!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2028 election.</h3><p>Fuck</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2028 election.</h3><p>Damn</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "J. D.",
+            "last_name": "Vance",
+            "election": 21,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 2,
+            "description": "<p>J. D. Vance has served as Trump Vice President for the past four years.</p>",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/e2lEQxC.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2028 election.</h3><p>won</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2028 election.</h3><p>lost</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 2028 election.</h3><p>tie</p>",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Jo",
+            "last_name": "Jorgensen",
+            "election": 21,
+            "party": "Libertarian",
+            "state": "South Carolina",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 303,
+        "fields": {
+            "first_name": "Howie",
+            "last_name": "Hawkins/Other",
+            "election": 21,
+            "party": "Green",
+            "state": "New York",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304,
+        "fields": {
+            "first_name": "Amy",
+            "last_name": "Klobuchar",
+            "election": 21,
+            "party": "Democrat",
+            "state": "Minnesota",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://pbs.twimg.com/profile_images/1220222507715686400/sugRph6d_400x400.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Amy Klobuchar is the senior Senator from Minnesota. She was one of your rivals in the primaries, and can give you a good boost in her home state, as well as the rest of the Midwest.</p>\n<p>She is much more moderate than you, and that might help a lot with suburbanites and anti-Trumpers, which will be the key demographics needed for you to defeat the president.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 309,
+        "fields": {
+            "first_name": "Marco",
+            "last_name": "Rubio",
+            "election": 21,
+            "party": "Republican",
+            "state": "Florida",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/iBqZm4g.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Marco Rubio is easily the most experienced politician on Trump’s shortlist, and the only one to have served in more than one elected office. He was Secretary of State in the Second presidency of Donald Trump.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 200,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 304
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 205,
+        "fields": {
+            "candidate": 301,
+            "running_mate": 309
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Lloyd Kwon"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 21,
+        "candidates": [
+            300,
+            301,
+            302,
+            303
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 21,
+        "year": 2020,
+        "is_premium": 0,
+        "display_year": "2028LBJ"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
+
+//#endcode
