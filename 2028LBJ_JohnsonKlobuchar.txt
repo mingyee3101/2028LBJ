@@ -5217,7 +5217,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 300,
             "state": 1142,
-            "state_multiplier": 1.1869350667
+            "state_multiplier": 1.5
         }
     },
     {
@@ -73503,6 +73503,11 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+campaignTrail_temp.candidate_image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/37_Lyndon_Johnson_3x4.jpg/800px-37_Lyndon_Johnson_3x4.jpg";
+campaignTrail_temp.running_mate_image_url = "https://pbs.twimg.com/profile_images/1220222507715686400/sugRph6d_400x400.jpg";
+campaignTrail_temp.candidate_last_name = "Johnson";
+campaignTrail_temp.running_mate_last_name = "Klobuchar";
+
 
 
 campaignTrail_temp.jet_data = [{
@@ -73514,6 +73519,11 @@ campaignTrail_temp.jet_data = [{
         "runImage": "https://pbs.twimg.com/profile_images/1220222507715686400/sugRph6d_400x400.jpg"
     },
     "cyoa_enabled": false,
-    "cyoa_data": {}
-}]
+    "cyoa_data": {},
+    "endings_enabled": false,
+    "ending_data": {},
+    "mapping_enabled": false,
+    "mapping_data": {}
+}
+]
 
