@@ -73505,17 +73505,15 @@ campaignTrail_temp.answer_feedback_json = [
 
 
 
-campaignTrail_temp.jet_data = [{}
-]
-
-campaignTrail_temp.candidate_image_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/37_Lyndon_Johnson_3x4.jpg/800px-37_Lyndon_Johnson_3x4.jpg';
-campaignTrail_temp.running_mate_image_url = 'https://pbs.twimg.com/profile_images/1220222507715686400/sugRph6d_400x400.jpg';
-campaignTrail_temp.candidate_last_name = 'Johnson';
-campaignTrail_temp.running_mate_last_name = 'Klobuchar';
-campaignTrail_temp.running_mate_state_id = '1004';
-campaignTrail_temp.player_answers = [];
-campaignTrail_temp.player_visits = [];
-campaignTrail_temp.answer_feedback_flg = 1;
-campaignTrail_temp.game_start_logging_id = '3660822';
-
+campaignTrail_temp.jet_data = [{
+    "banner_enabled": true,
+    "banner_data": {
+        "canName": "Johnson",
+        "runName": "Klobuchar",
+        "canImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/37_Lyndon_Johnson_3x4.jpg/800px-37_Lyndon_Johnson_3x4.jpg",
+        "runImage": "https://pbs.twimg.com/profile_images/1220222507715686400/sugRph6d_400x400.jpg"
+    },
+    "cyoa_enabled": false,
+    "cyoa_data": {}
+}]
 
